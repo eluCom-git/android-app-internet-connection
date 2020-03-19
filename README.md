@@ -1,4 +1,4 @@
-# android-app-internet-connection
+# Android App Internet Connection
 This project is describes all necessary detail needed to create android app that can load information from internet.
 Android app tested using emulator. PHP script stored in htdocs of xampp folder. The important thing here is that, the url accessed by your app must be absolute address like, http://address/project-folder/file. The address must not be 'localhost or 127.0.0.1
 
