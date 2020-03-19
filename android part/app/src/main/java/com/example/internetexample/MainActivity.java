@@ -47,6 +47,16 @@ public class MainActivity extends AppCompatActivity {
                     -
                  */
 
+                /*
+                To send POST/GET data
+                String data = URLEncoder.encode("data", "UTF-8") + "=" + URLEncoder.encode("Message", "UTF-8");
+
+                BufferedWriter bufferedW = new BufferedWriter(new OutputStreamWriter(connection.getOutputStream(), "UTF-8"));
+                bufferedW.write(data);
+                bufferedW.flush();
+                bufferedW.close();
+                 */
+                
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
                 String result = bufferedReader.readLine();
                 bufferedReader.close();
